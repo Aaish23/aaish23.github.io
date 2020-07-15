@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+body#home-background {
+	background-image: url(../images/bg-home.png);
+	background-repeat:no-repeat;
+	background-position: top;
+	
+}
+
+header {
+	height: 68px;
+	/*border: 1px solid #000;*/
+}
+
+div#logo-area {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	display: inline;
+	margin-top: 15px;
+	margin-left: 30px;
+	float: left;
+	/*border: 1px solid #000;*/
+}
+
+div#logo-area a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul#global-nav {
+	text-align: right;
+	margin-right: 15px;
+	width: 400px;
+	float: right;
+	margin-top: 24px;
+	/*border: 1px solid #000;*/
+}
+
+nav ul#global-nav li {
+	color: #000;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16.7px;
+	display: inline;
+	text-align: right;
+	padding: 5px 10px;
+	margin: 10px;
+	font-weight: bold;
+	/*border: 1px solid #000;*/
+}
+
+nav ul#global-nav li a {
+	text-decoration: none;
+	color: #000;
+}
+
+nav ul#global-nav li a:hover {
+	text-decoration: none;
+	border-bottom: 4px solid #34DDDD;
+}
+
+div.featured-image {
+	margin: 40px auto;
+	height: 400px;
+	width: 90%;
+}
+
+div.page-title {
+	margin-top: -60px;
+	width: 300px;
+	margin-left: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: left;
+}
+
+div#about-aaisha {
+	width: 80%;
+	margin: 0px auto;
+	height: 560px;
+}
+
+
+#aaisha-pic {
+	width: 30%;
+	margin: 10px;
+}
+
+#about-aaisha img {
+	margin: 0px 20px 20px 0px;
+	float: left;
+}
+
+#about-aaisha p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	text-indent: 45px;
+	text-align: left;
+	padding: 15px;
+	line-height: 1.5;
+}
+
+#resume {
+	border: 2px solid #000;
+	padding: 8px;
+	text-decoration: none;
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	float: right;
+}
+
+#resume:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+.column {
+	width: 100%;
+	padding: 10px;
+	float: left;
+}
+
+.column img {
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+/*.column .left {
+	float: left;
+}*/
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.overlay {
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F68486;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.container:hover .overlay {
+  opacity: 0.95;
+}
+
+.overlay-text {
+  color: #000;
+  font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+  position: absolute;
+ top: 10%;
+ /* left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+  text-align: center;
+}
+
+footer {
+	margin-top: 60px;
+	height: 72px;
+	background-color: #FCFCFC;
+	border-top: 2px solid #DDD;
+}
+
+footer div.footer-inner {
+	width: 670px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+footer div.footer-inner h2.footer-title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+footer div.footer-inner a {
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+footer div.footer-inner a:hover {
+	text-decoration: underline;
+	text-decoration-color: #34DDDD;
+	color: #1783A0;
+	font-family: 'Raleway', sans-serif;
+}
+
